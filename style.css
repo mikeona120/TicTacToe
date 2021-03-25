@@ -18,6 +18,10 @@
     
 }
 
-.grid-item-filled {
-    background-color: rgb(0, 255, 0);
+.grid-item-filled-X {
+    background-color: rgb(0, 17, 255);
+}
+
+.grid-item-filled-O {
+    background-color: rgb(255, 0, 34);
 }
