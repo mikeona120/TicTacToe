@@ -12,16 +12,31 @@
 
 
 .grid-item {
-    padding: 1em;
+    padding: 10%;
     border: 1px solid rgb(0, 0, 0);
     text-align: center;
-    
+    color: white;
+    margin: 10%;
+    width: 60%;
 }
 
 .grid-item-filled-X {
     background-color: rgb(0, 17, 255);
+    color: black;
 }
 
 .grid-item-filled-O {
     background-color: rgb(255, 0, 34);
+    color: black;
+}
+
+h1{
+    text-align: center;
+    position: center;
+}
+
+button{
+    
+  
+  text-align: center;
 }
