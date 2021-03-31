@@ -7,7 +7,7 @@ const gameBoard = (board,index) =>{
         console.log(board);
     };
 
-    const setBoard = (index) => { //add a check winning combo function
+    const setBoard = (index) => { 
         
         if(player=="player1"){
             if(board[index]==null){
@@ -86,16 +86,18 @@ $('#clear-btn').click(function() {
     for(x=0;x<grids.length;x++){
         grids[x].classList.remove("grid-item-filled-X");
         grids[x].classList.remove("grid-item-filled-O");
-        grids[x].innerHTML = "-";
+        grids[x].innerHTML = " ";
     };
 });
 
 $('#player1-btn').click(function() {
-    boardObject.setPlayer1(); 
+    boardObject.setPlayer1();
+    $('#player2-btn').prop('checked', false)
 });
 
 $('#player2-btn').click(function() {
     boardObject.setPlayer2();
+    $('#player1-btn').prop('checked', false)
 });
 
 

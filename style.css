@@ -5,19 +5,26 @@
 
 #container {
     display: grid;
-    grid-gap: 1em;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
+    aspect-ratio: 1;
+    grid-gap: 10px;
+    width: 30%;
+    height: 100%;
+    position: center;
+    margin-left: 35%;
 }
 
 
 .grid-item {
-    padding: 10%;
     border: 1px solid rgb(0, 0, 0);
     text-align: center;
-    color: white;
-    margin: 10%;
-    width: 60%;
+    padding-top: 40%;
+    font-size: xx-large;
+}
+
+.grid-item:hover {
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .grid-item-filled-X {
@@ -35,8 +42,9 @@ h1{
     position: center;
 }
 
-button{
+
+#buttons{
+    text-align: center;
+    position: center;
     
-  
-  text-align: center;
 }
