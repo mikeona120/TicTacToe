@@ -3,6 +3,13 @@
     --grid-rows: 3;
 }
 
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/2078959.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
 #container {
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
@@ -21,6 +28,7 @@
     text-align: center;
     padding-top: 40%;
     font-size: xx-large;
+    background-color: white;
 }
 
 .grid-item:hover {
@@ -40,6 +48,8 @@
 h1{
     text-align: center;
     position: center;
+    
+    font-size: 50px;
 }
 
 

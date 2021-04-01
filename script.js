@@ -3,6 +3,9 @@
 
 const gameBoard = (board,index) =>{
 
+    
+    
+
     const getBoard = () => {
         console.log(board);
     };
@@ -51,10 +54,6 @@ const gameBoard = (board,index) =>{
             }
 
         }
-
-        
-        
-
     };
     
     return {getBoard, setBoard, clearBoard,setPlayer1,setPlayer2,checkWinner}
